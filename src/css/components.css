@@ -1,0 +1,24 @@
+.BeerHeader {
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: 25% 15% auto auto auto;
+    padding: 10px;
+    color: #fff;
+}
+
+.BeerHeader span {
+    font-weight: bold;
+    text-align: left;
+}
+
+.BeerItem {
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: 25% 15% auto auto auto;
+    padding: 10px;
+    color: #fff;
+}
+
+.BeerItem span {
+    text-align: left;
+}

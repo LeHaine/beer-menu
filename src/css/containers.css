@@ -1,0 +1,7 @@
+.BeerList {
+    display: grid;
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+    grid-template-columns: auto;
+    padding: 5px;
+}
