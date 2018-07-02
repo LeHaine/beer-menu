@@ -5,3 +5,30 @@
     grid-template-columns: auto;
     padding: 5px;
 }
+
+.AdminDashboard {
+    color: white;
+}
+
+.AdminDashboard input:not([type="submit"]) {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+
+.AdminDashboard .error {
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+.AdminDashboard input[type="submit"] {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}

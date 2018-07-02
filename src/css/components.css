@@ -22,3 +22,7 @@
 .BeerItem span {
     text-align: left;
 }
+
+.AdminNav a {
+    color: #fff;
+}
